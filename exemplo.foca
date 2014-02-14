@@ -1,0 +1,10 @@
+int main()
+{
+	string a;
+	string b;
+	string c;
+
+	a = "oi";
+	b = "tchau";
+	c = a + b;
+}
