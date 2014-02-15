@@ -47,6 +47,10 @@ STRING 		\'{DELIM}*{CARACTERE}+({DELIM}*{CARACTERE}+)*{DELIM}*\'|\"{DELIM}*{CARA
 
 "char"			{ return TK_TIPO_STRING; }
 
+"void"			{ return TK_TIPO_VOID; }
+
+"return"		{ return TK_RETURN; }
+
 [(){}[\];,]		{ return *yytext; }
 
 [+\-*/=]		{ return *yytext; }

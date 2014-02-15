@@ -1,10 +1,15 @@
-int main()
-{
-	string a;
-	string b;
-	string c;
+float teste (int a, float b, int c) {
 
-	a = "oi";
-	b = "tchau";
-	c = a + b;
+	a = 10;
+	b = 15;
+
+	c = a+b;
+	return c;
+
+}
+int main () {
+	int a, c;
+	float b;
+	string d = "oi";
+	teste(a,b,c);
 }
